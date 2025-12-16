@@ -11,6 +11,9 @@
       text-align: center;
       width: 100vw;
     }
+    .bg1{
+      background: url(bg1.jpg);
+    }
     /* Nav-Bar Styling */
     .nav-link{
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -18,7 +21,7 @@
     }
     .mynav{
       /* background: linear-gradient(35deg, rgb(172, 127, 243), rgb(95, 18, 219)); */
-      background-color: #ddba7d;
+      background-color: #948e84;
       color: black;
       width: 100%;
       .join{
@@ -53,7 +56,7 @@
       border: none;
       border-radius: 5px;
       box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
-      background: transparent;
+      background: rgba(255, 253, 253, 0.623);
       color: black;
       cursor: pointer;
     }
@@ -67,7 +70,7 @@
       height: 75vh;
     }
     h2{
-      margin-top: 60px;
+      padding-top: 60px;
       font-family: "Bebas Neue", sans-serif;
       font-weight: 500;
     }
