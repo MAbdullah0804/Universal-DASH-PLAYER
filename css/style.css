@@ -1,30 +1,16 @@
-
-    *{
-      margin: 0%;
-      padding: 0%;
-      box-sizing: border-box;
-    }
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+ }
     body {
       font-family: Arial, sans-serif;
-      background: #fcf6d9;
-      color: black;
       text-align: center;
-      width: 100vw;
     }
-    .bg1{
-      background: url(bg1.jpg);
-    }
-    /* Nav-Bar Styling */
-    .nav-link{
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-size: 1.5rem;
-    }
+    
     .mynav{
-      /* background: linear-gradient(35deg, rgb(172, 127, 243), rgb(95, 18, 219)); */
-      background-color: #948e84;
-      color: black;
-      width: 100%;
-      .join{
+      background: #574964;
+       .join{
         text-decoration: none;
         padding: 0px 20px;
       }
@@ -32,9 +18,37 @@
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
         font-size: 2rem;
     margin-right: 2rem;
+    color: white;
     }
   }
-    input {
+    /* Nav-Bar Styling */
+    .nav-link{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 1.5rem;
+      color: white;
+      position: relative;
+      padding: 0.5rem 1rem;
+      margin-right: 1.5rem;
+    }
+    .nav-link:hover{
+      color: #ffff;
+    }
+    .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffff; /* Bootstrap primary */
+  transition: width 0.3s ease;
+}
+.nav-link:hover::after
+    {
+  width: 100%;
+}
+  /* ==========end NavBar=============== */
+input {
       width: 80%;
       max-width: 600px;
       padding: 12px;
@@ -45,10 +59,10 @@
       font-size: 16px;
 
     }
-    input:hover{
+input:active{
             box-shadow: inset 0 6px 15px rgba(234, 189, 189, 0.504);
-    }
-    .play-btn {
+  }
+.play-btn {
       margin-top: 15px;
       margin-bottom: 15px;
       padding: 12px 25px;
@@ -60,23 +74,23 @@
       color: black;
       cursor: pointer;
     }
-    button:hover {
-      /* background: #4a22c3; */
-            box-shadow: inset 10px 10px 15px rgba(174, 170, 170, 0.395);
+button:hover {
+      background: #4a22c3;
+      box-shadow: inset 10px 10px 15px rgba(174, 170, 170, 0.395);
     }
 
-    #videoPlayer {
+#videoPlayer {
       width: 100%;
       height: 75vh;
     }
-    h2{
+h2{
       padding-top: 60px;
       font-family: "Bebas Neue", sans-serif;
       font-weight: 500;
     }
-    .local-input{
+.local-input{
       background: white;
     }
-      .local-file{
+.local-file{
       margin-top: 50px;
     }
