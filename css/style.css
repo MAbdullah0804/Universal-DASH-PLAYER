@@ -47,6 +47,9 @@
     {
   width: 100%;
 }
+.togl-btn{
+  border: 1px solid white;
+}
   /* ==========end NavBar=============== */
 input {
       width: 80%;
