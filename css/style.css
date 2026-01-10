@@ -49,7 +49,8 @@
   width: 100%;
 }
 .togl-btn{
-  border: 1px solid white;
+  background-color: #ffffffbd;
+  box-shadow: 2px 2px 2px 1px white;
 }
   /* ==========end NavBar=============== */
 input {
@@ -67,8 +68,8 @@ input:active{
             box-shadow: inset 0 6px 15px rgba(234, 189, 189, 0.504);
   }
 .play-btn {
-      margin-top: 15px;
-      margin-bottom: 15px;
+      margin-top: 1.5rem;
+      margin-bottom: 2rem;
       padding: 12px 25px;
       font-size: 16px;
       border: none;
@@ -85,7 +86,7 @@ button:hover {
 
 #videoPlayer {
       width: 100%;
-      height: 75vh;
+      aspect-ratio: 16/9;
     }
 h2{
       padding-top: 60px;
