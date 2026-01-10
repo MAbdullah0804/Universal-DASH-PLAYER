@@ -10,6 +10,7 @@
     
     .mynav{
       background: #574964;
+      box-shadow: 0 4px 3px 2px rgba(255, 255, 255, 0.473);
        .join{
         text-decoration: none;
         padding: 0px 20px;
@@ -90,6 +91,7 @@ h2{
       padding-top: 60px;
       font-family: "Bebas Neue", sans-serif;
       font-weight: 500;
+      text-shadow: 3px 3px 2px rgba(255, 255, 255, 0.473);
     }
 .local-input{
       background: white;
